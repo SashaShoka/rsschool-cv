@@ -1,3 +1,40 @@
-.title {
+.back {
+  background-color: lightblue;
+  min-height: 100vh;
+}
+
+.img {
+  height: 250px;
+  width: 200px;
+  border-radius: 200px;
+  border: 3px solid black;
+  float: right;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+}
+nav ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.down {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+}
+.a {
+  text-align: left;
 }
